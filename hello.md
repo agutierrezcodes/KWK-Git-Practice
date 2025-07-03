@@ -1,1 +1,1 @@
- “I am learning how to use Git!”
+ Hello, my name is Abi and I am learning how to use Git!
