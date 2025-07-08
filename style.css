@@ -1,0 +1,120 @@
+body {
+    background-color: rgb(7, 7, 23);
+    color: rgb(211, 210, 210);
+    font-family: Menlo, Monaco, 'Courier New', monospace;
+    margin-right: 42px;
+    margin-left: 42px;
+    margin-top: 60px;
+    margin-bottom: 60px;
+}
+
+h2 {
+    font-size: 32px;
+    text-align: center;
+}
+
+h1 {
+    text-align: center;
+    font-size: 46px;
+}
+
+p {
+    font-size: 20px;
+    padding-left: 80px;
+    padding-right: 80px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.links {
+    padding-top: 0px;
+    padding-bottom: 0px;
+}
+
+a {
+    color: rgb(161, 141, 236);
+}
+
+p, .funFacts, .centeredList {
+    text-align: center;
+}
+
+.funFacts {
+    display: inline-block;
+    text-align: left;
+    max-width: 60%;
+    font-size: 20px;
+}
+
+ol > li::marker {
+  font-weight: bold;
+}
+
+img {
+    /* object-fit:  cover;  */
+    max-width: 30%;
+    box-shadow: 10px 10px 12px 8px black;
+    transition: transform .4s;
+    border-radius: 4px;
+} 
+
+img:hover {
+    transform: scale(1.05);
+}
+
+.reading {
+    /* justify-content: space-around;
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+     */
+    float: center;
+}
+
+#bookCovers, #dogPic {
+    display: flex;
+    justify-content: space-around;
+}
+
+#brownies {
+    text-align: center; /* necessary because the img is a link now, different from a regular img */
+}
+
+.passionItem {
+    padding: 30px;
+}
+
+#petButton {
+    display: flex;
+    justify-content: center;
+}
+
+#button {
+    background-color: rgb(3, 3, 15);
+    color: rgb(211, 210, 210);
+    padding: 8px;
+    font-size: 16px;
+    border-radius: 6px; 
+    border-color: rgb(161, 141, 236);
+    transition-duration: 0.3s;
+    box-shadow: 6px 6px 8px 2px black;
+
+}
+
+#button:hover {
+  background-color: rgb(161, 141, 236);
+  color: white;
+}
+
+#factsList, #interests, #journey {
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+hr {
+    max-width: 70%;
+    background-color: rgb(161, 141, 236);
+    height: 1.5px;
+    border: none;
+
+}
